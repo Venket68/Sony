@@ -107,6 +107,7 @@ input{
     background-color: rgb(15, 12, 12);
     height: auto;
     width: auto;
+    
 }
 /* @media only screen and (min-width: 992px) {
     .main-continer-second{
@@ -345,4 +346,114 @@ input{
 .fin-ot-2:hover{
     background-color: rgb(19, 144, 247);
     color: rgb(255, 255, 255);
+}
+/* mobile view 375px L size */
+@media screen and (max-width:375px) {
+    .main-continer-first{
+        width: 522px;
+        gap: 40px;
+        overflow: hidden;
+
+    }
+    input{
+        display: none;
+    }
+    .img-icon1{
+        height: 330px;
+    }
+    .main-continer-second{
+        width: 559px;
+        /* padding: 15px; */
+    }
+    .main-continer-third{
+        width: 512px;
+        overflow: hidden;
+    }
+    .icon-continer{
+        gap: 30px;
+    }
+    .main-continer-forth{
+        width: 409px;
+        overflow: hidden;
+    }
+    .joi-img{
+       height: 300px;
+    }
+    nav{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .main-continer-first{
+        width: 522px;
+        gap: 40px;
+        overflow: hidden;
+
+    }
+    input{
+        display: none;
+    }
+    .img-icon1{
+        height: 330px;
+    }
+    .main-continer-second{
+        width: 559px;
+        /* padding: 15px; */
+    }
+    .main-continer-third{
+        width: 512px;
+        overflow: hidden;
+    }
+    .icon-continer{
+        gap: 30px;
+    }
+    .main-continer-forth{
+        width: 409px;
+        overflow: hidden;
+    }
+    .joi-img{
+       height: 300px;
+    }
+    nav{
+        display: none;
+    }
+}
+/* mobile view S size 320px */
+
+@media screen and (max-width:320px) {
+    .main-continer-first{
+        width: 522px;
+        gap: 40px;
+        overflow: hidden;
+
+    }
+    input{
+        display: none;
+    }
+    .img-icon1{
+        height: 330px;
+    }
+    .main-continer-second{
+        width: 559px;
+        /* padding: 15px; */
+    }
+    .main-continer-third{
+        width: 512px;
+        overflow: hidden;
+    }
+    .icon-continer{
+        gap: 30px;
+    }
+    .main-continer-forth{
+        width: 409px;
+        overflow: hidden;
+    }
+    .joi-img{
+       height: 300px;
+    }
+    nav{
+        display: none;
+    }
 }
