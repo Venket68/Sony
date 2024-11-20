@@ -372,6 +372,13 @@ input{
     nav{
         display: none;
     }
+    .main-continer-sixth{
+     width: 399px;
+    }
+    .sony-icon{
+   
+   
+    }
    
 }
 
@@ -415,6 +422,12 @@ input{
     }
     .main-continer-fiveth{
         width: 669px;
+    }
+    .main-continer-sixth{
+        width:23300px;
+    }
+    .sony-icon{
+        display: none;
     }
 }
 /* mobile view S size 320px */
@@ -488,7 +501,7 @@ input{
     color: whitesmoke;
 }
 .text-btn{
-    font-size: 30px;
+    font-size: 26px;
     background-color:transparent;
     border: none;
     color: whitesmoke;
@@ -496,3 +509,47 @@ input{
 .qus-ans{
     display: none;
 }
+.main-continer-sixth{
+    background-image: url(bg/ps-studios-banner-hero-desktop-01-en-15aug23.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    width: auto;
+    height: auto;
+    color: white;
+    padding: 55px;
+}
+.sony-icon{
+    margin-top: 170px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-eco{
+    margin-top: 62px;
+    text-align: center;
+    /* border: 2px solid; */
+    width: auto;
+    font-size:18px;
+}
+.fin-ot2{
+    padding: 17px;
+    border-radius: 25px;
+    width: auto;
+    border: none;
+    margin-top: 50px;
+    font-size: large;
+    color: white;
+    background-color: rgb(21, 23, 24);}
+    .c-mov{
+        /* border: 2px solid; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fin-ot2:hover{
+        background-color: white;
+        color: black;
+        transition-duration: 0.5s;
+    }
